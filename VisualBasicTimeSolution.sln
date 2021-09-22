@@ -11,6 +11,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Windows Forms project", "Wi
 EndProject
 Project("{778DAE3C-4631-46EA-AA77-85C1314464D9}") = "HoursWinFormTest", "HoursWinFormTest\HoursWinFormTest.vbproj", "{A2764CC8-A8A1-4D74-A793-770AD35B5BCB}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4DCDC31F-F85C-4476-BEAC-F2F1D0F10F62}"
+	ProjectSection(SolutionItems) = preProject
+		readme.md = readme.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
