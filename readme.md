@@ -10,6 +10,9 @@ TimePickerComboBox provides the ability to display time by hour, quarter hour or
 - To determine if the current value is am or pm use [IsAm](https://github.com/karenpayneoregon/time-combobox-vbnet/blob/master/HoursLibrary/TimePickerComboBox.vb#L114) or [IsPm](https://github.com/karenpayneoregon/time-combobox-vbnet/blob/master/HoursLibrary/TimePickerComboBox.vb#L126)
 - To set the increment use [Increment](https://github.com/karenpayneoregon/time-combobox-vbnet/blob/master/HoursLibrary/TimePickerComboBox.vb#L139) property
 
+# Helpers
+
+There are several language extensions to assist working with Date and TimeSpan types [found here](https://github.com/karenpayneoregon/time-combobox-vbnet/blob/master/LanguageExtensions.md).
 
 # Hours class
 
