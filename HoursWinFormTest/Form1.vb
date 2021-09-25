@@ -1,5 +1,4 @@
-﻿Imports HoursLibrary
-Imports HoursLibrary.Classes
+﻿Imports HoursLibrary.Classes
 Imports HoursLibrary.LanguageExtensions
 
 Public Class Form1
@@ -25,7 +24,7 @@ Public Class Form1
 
     Private Sub IncrementsComboBox_SelectedIndexChanged(sender As Object, e As EventArgs)
 
-        Dim current = TimeComboBox1.TimeSpan.CurrentHour()
+        Dim current As String = TimeComboBox1.TimeSpan.CurrentHour()
         Dim selectedItem = CType(IncrementsComboBox.SelectedItem, TimeIncrement)
 
         TimeComboBox1.Increment = selectedItem
@@ -34,6 +33,15 @@ Public Class Form1
         Dim position = TimeComboBox1.FindString(current)
 
         TimeComboBox1.SelectedIndex = If(position > -1, position, 0)
+
+    End Sub
+
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        Dim dataResults = DataOperations.Read()
+
+        For Each dataResult As TimeTable In dataResults
+            Debug.WriteLine($"{dataResult.Id}  {dataResult.StartTime.Value.Formatted()}")
+        Next
 
     End Sub
 End Class

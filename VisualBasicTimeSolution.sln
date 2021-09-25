@@ -13,7 +13,9 @@ Project("{778DAE3C-4631-46EA-AA77-85C1314464D9}") = "HoursWinFormTest", "HoursWi
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4DCDC31F-F85C-4476-BEAC-F2F1D0F10F62}"
 	ProjectSection(SolutionItems) = preProject
+		LanguageExtensions.md = LanguageExtensions.md
 		readme.md = readme.md
+		script.sql = script.sql
 	EndProjectSection
 EndProject
 Global

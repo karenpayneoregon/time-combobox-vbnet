@@ -4,7 +4,7 @@ Imports System.Globalization
 Imports System.Windows.Forms.Design
 Imports HoursLibrary.Classes
 
-Public Class TimeComboBox
+Public Class TimePickerComboBox
     Inherits ComboBox
 
     Private _shown As Boolean = False
@@ -27,7 +27,7 @@ Public Class TimeComboBox
     ''' Disable sorting
     ''' </summary>
 #Disable Warning BC108, BC114
-        Public Overloads ReadOnly Property Sorted() As Boolean
+    Public Overloads ReadOnly Property Sorted() As Boolean
         Get
             Return False
         End Get
