@@ -14,6 +14,10 @@ TimePickerComboBox provides the ability to display time by hour, quarter hour or
 
 There are several language extensions to assist working with Date and TimeSpan types [found here](https://github.com/karenpayneoregon/time-combobox-vbnet/blob/master/LanguageExtensions.md).
 
+# SQL-Server example
+
+Before running create the required database and tables using the following [script](https://github.com/karenpayneoregon/time-combobox-vbnet/blob/master/script.sql).
+
 # Hours class
 
 Provides the ability to create an array of time formatted AM/PM in hours e.g. `hh:mm tt`, quarter hour and half hour.
