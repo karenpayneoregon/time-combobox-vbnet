@@ -2,6 +2,7 @@
 Imports System.Drawing.Design
 Imports System.Globalization
 Imports System.Windows.Forms.Design
+Imports HoursLibrary.Classes
 
 Public Class TimeComboBox
     Inherits ComboBox
