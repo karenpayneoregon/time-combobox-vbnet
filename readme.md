@@ -23,7 +23,7 @@ Before running create the required database and tables using the following [scri
 Provides the ability to create an array of time formatted AM/PM in hours e.g. `hh:mm tt`, quarter hour and half hour.
 
 
-# TimeComboBox
+# TimePickerComboBox
 
 A ComboBox which provides the ability to display hours based off `Hours` class.
 
