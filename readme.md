@@ -31,4 +31,17 @@ A ComboBox which provides the ability to display hours based off `Hours` class.
 
 ## Working with SQL-Server
 
+In this code sample data is read from a SQL-Server database table where time columns are of type [time(7)](https://docs.microsoft.com/en-us/sql/t-sql/data-types/time-transact-sql?view=sql-server-ver15). 
+
+A ListBox data source is set to a list of a model via a BindingSource then on position change the TimePickerComboBox is updated to the current item StartTime column value.
+
+On selection change event of the TimePickerComboBox the StartTime value is updated in the data source.
+
+Other options would be data binding a property in the TimePickerComboBox.
+
+
+![img](assets/TimeTableDefinition.png)
+
+![img](assets/TimeTableQuery.png)
+
 ![image](assets/TimeComboBoxData.png)
