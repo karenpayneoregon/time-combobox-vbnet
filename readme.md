@@ -1,6 +1,6 @@
-# About
+# TimePickerComboBox (VB.NET)
 
-.NET Framework has a DateTimePicker but not a control to work with TimeSpan which is what TimePickerComboBox was created for.
+.NET Framework has a `DateTimePicker` but not a control to work with `TimeSpan` which is what `TimePickerComboBox` was created for.
 
 TimePickerComboBox provides the ability to display time by hour, quarter hour or half-hour using an enum. 
 
@@ -20,7 +20,7 @@ Before running create the required database and tables using the following [scri
 
 # Hours class
 
-Provides the ability to create an array of time formatted AM/PM in hours e.g. `hh:mm tt`, quarter hour and half hour.
+Provides the ability to create an `array of time` formatted `AM/PM` in hours e.g. `hh:mm tt`, quarter hour and half hour.
 
 
 # TimePickerComboBox
