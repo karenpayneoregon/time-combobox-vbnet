@@ -45,3 +45,7 @@ Other options would be data binding a property in the TimePickerComboBox.
 ![img](assets/TimeTableQuery.png)
 
 ![image](assets/TimeComboBoxData.png)
+
+# C# version
+
+See the following `Microsoft TechNet article` [Working with SQL-Server time type in Windows forms](https://social.technet.microsoft.com/wiki/contents/articles/52218.c-working-with-sql-server-time-type-in-windows-forms.aspx)
